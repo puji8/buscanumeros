@@ -21,6 +21,7 @@ public class Principal {
 				i=array.length;
 			}
 		}
+		CalculRapid();
 		time_end = System.currentTimeMillis();
 		System.out.println("El programa a tardat "+ (time_end - time_start) + " milisegons en trobar el numero " + buscat);
 	}
